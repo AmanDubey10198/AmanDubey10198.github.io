@@ -36,7 +36,7 @@ p4.onmouseenter = () => {
 
 p5.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc5 + `To navigate to project<a href = "#"> click me!</a>`;
+    d.innerHTML = desc5 + `To navigate to project<a href = "https://github.com/AmanDubey10198/FaceDetect"> click me!</a>`;
 };
 
 /*

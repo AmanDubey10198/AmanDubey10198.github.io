@@ -56,13 +56,13 @@ main{
 
 #mission{
     position: relative;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 #mission .centered{
     position: absolute;
-    width: 1200px;
+    width: 100%;
     top: 35%;
     background-color: black;
 }
@@ -71,7 +71,7 @@ main{
 /* variety of teas and donuts */
 .teas{
     position: relative;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ main{
 }
 .location img{
     height: 500px;
-    width: 1200px;
+    width: 100%;
 }
 
 .location .centered{

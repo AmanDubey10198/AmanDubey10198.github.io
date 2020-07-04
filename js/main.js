@@ -26,17 +26,17 @@ p2.onmouseenter = () => {
 
 p3.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc3 + `To navigate to project<a href = ./HideAndSeekGame/index.html"> click me!</a>`; 
+    d.innerHTML = desc3 + `To navigate to project<a href = ../HideAndSeekGame/index.html"> click me!</a>`; 
 };
 
 p4.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc4 + `To navigate to project<a href = "https://github.com/AmanDubey10198/WEB_DEVELOPMENT/tree/master/expresso"> click me!</a>`;  
+    d.innerHTML = desc4 + `To navigate to project<a href = "../../WEB_DEVELOPMENT/tree/master/expresso"> click me!</a>`;  
 };
 
 p5.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc5 + `To navigate to project<a href = "https://github.com/AmanDubey10198/FaceDetect"> click me!</a>`;
+    d.innerHTML = desc5 + `To navigate to project<a href = "../FaceDetect"> click me!</a>`;
 };
 
 /*

@@ -5,6 +5,7 @@
 body{
     background-color: #FFF;
     margin: 0 auto;
+    font-size: 2vw;
 }
 
 #banner  {
@@ -46,22 +47,23 @@ h2, h3, h4{
 }
 
 h3{
-    font-size: 1.5vw;
+    font-size: 1em;
     font-weight: 500;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-size: 1.2vw;
+    font-size: 0.6em;
 }
+
 #intro {
     margin-top: 5.5vw;
     margin-bottom: 2vw;
     position: relative;
 }
 #intro h1 {
-    font-size: 3vw;
+    font-size: 2em;
     margin-top: 0;
     margin-bottom: 1vw;
     padding-left: 1vw;
@@ -71,7 +73,7 @@ p {
 #intro p {
     padding-left: 1vw;
     margin: 0;
-    font-size: 1vw;
+    font-size: 0.5em;
 }
 article {
     margin-left: 2vw;
@@ -88,7 +90,7 @@ article {
 .project {
     color: #466995;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5vw;
+    font-size: 0.7em;
     text-align: center;
     font-weight: 600;
     text-transform: uppercase;
@@ -110,6 +112,13 @@ article {
     visibility: hidden;
 }
 
+th{
+    font-size: 0.8em;
+}
+
+td{
+    font-size: 0.6em;
+}
 /*education*/
 #education table tr{
     margin-top: 1vw;
@@ -118,6 +127,30 @@ article {
 
 #education table tr td{
     padding: 0.2vw 1vw;
+}
+
+/*moocs*/
+#moocs table tr{
+    margin-top: 1vw;
+    margin-bottom : 1vw;
+}
+#moocs table tr td{
+    padding: 0.2vw 1vw;
+}
+
+/*achievements*/
+#achievements{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+}
+
+#achievements ul {
+    margin: 0;
+}
+
+#achievements li{
+    font-size: 0.6em;
 }
 
 footer {
@@ -129,7 +162,7 @@ footer {
 }
 
 footer div{
-    margin: 0.5vw 1vw;
+    margin: 5px;
     color: white;
     font-family: sans-serif;
 }

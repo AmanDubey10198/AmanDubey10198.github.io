@@ -26,7 +26,7 @@ p2.onmouseenter = () => {
 
 p3.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc3 + `To navigate to project<a href = "https://github.com/AmanDubey10198/AmanDubey10198.github.io/tree/master/HideAndSeekGame/index.html"> click me!</a>`; 
+    d.innerHTML = desc3 + `To navigate to project<a href = ./HideAndSeekGame/index.html"> click me!</a>`; 
 };
 
 p4.onmouseenter = () => {

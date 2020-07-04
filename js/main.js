@@ -31,7 +31,7 @@ p3.onmouseenter = () => {
 
 p4.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc4 + `To navigate to project<a href = "../../WEB_DEVELOPMENT/tree/master/expresso/"> click me!</a>`;  
+    d.innerHTML = desc4 + `To navigate to project<a href = "../../WEB_DEVELOPMENT/expresso/"> click me!</a>`;  
 };
 
 p5.onmouseenter = () => {

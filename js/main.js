@@ -7,7 +7,7 @@ const p5 = document.getElementById('project5');
 
 const desc1 = "description of project 1";
 const desc2 = "description of project 2";
-const desc3 = "description of project 3";
+const desc3 = `This project uses HTML, CSS and JavaScript to create a fun game in which you have to open doors without find the robot till the last door. This game uses JavaScript to give all the interactivity to the webpage.`;
 const desc4 = `Web Development project for doing CRUD (Create Delete Update and Delete) on the menu, menuItems, employee and employeeTimesheet. Used Express for creating the API Routers and sqlite for the database.`;
 
 const desc5 = `Face recognition and gender identification (FRAS). This machine learning based project is coded in python programming language with tensorflow as a backend for doing mathematical calculations. The trained model was giving an accuracy of over 98% on the testing dataset.`;
@@ -26,12 +26,12 @@ p2.onmouseenter = () => {
 
 p3.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc3;  
+    d.innerHTML = desc3 + `To navigate to project<a href = "https://github.com/AmanDubey10198/AmanDubey10198.github.io/tree/master/HideAndSeekGame/index.html"> click me!</a>`; 
 };
 
 p4.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc4 + `To navigate to project<a href = "#"> click me!</a>`;  
+    d.innerHTML = desc4 + `To navigate to project<a href = "https://github.com/AmanDubey10198/WEB_DEVELOPMENT/tree/master/expresso"> click me!</a>`;  
 };
 
 p5.onmouseenter = () => {

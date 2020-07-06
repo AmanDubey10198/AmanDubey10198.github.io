@@ -1,11 +1,11 @@
 
-const p1 = document.getElementById('project1');
+//const p1 = document.getElementById('project1');
 const p2 = document.getElementById('project2');
 const p3 = document.getElementById('project3');
 const p4 = document.getElementById('project4');
 const p5 = document.getElementById('project5');
 
-const desc1 = "description of project 1";
+//const desc1 = "description of project 1";
 const desc2 = "description of project 2";
 const desc3 = `This project uses HTML, CSS and JavaScript to create a fun game in which you have to open doors without find the robot till the last door. This game uses JavaScript to give all the interactivity to the webpage.`;
 const desc4 = `Web Development project for doing CRUD (Create Delete Update and Delete) on the menu, menuItems, employee and employeeTimesheet. Used Express for creating the API Routers and sqlite for the database.`;
@@ -14,14 +14,15 @@ const desc5 = `Face recognition and gender identification (FRAS). This machine l
 
 const d = document.getElementById('description');
 
+/*
 p1.onmouseenter = () => {
     d.style.visibility = 'visible';
     d.innerHTML = desc1;  
 };
-
+*/
 p2.onmouseenter = () => {
     d.style.visibility = 'visible';
-    d.innerHTML = desc2;  
+    d.innerHTML = desc2 + `To navigate to project<a href = "http://exuberant-wind.surge.sh/"> click me!</a>`;  
 };
 
 p3.onmouseenter = () => {

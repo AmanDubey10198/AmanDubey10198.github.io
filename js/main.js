@@ -6,7 +6,7 @@ const p4 = document.getElementById('project4');
 const p5 = document.getElementById('project5');
 
 //const desc1 = "description of project 1";
-const desc2 = "description of project 2";
+const desc2 = "This project is a React web application. It uses React components, passing state, and requests with the Spotify API to build a website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.";
 const desc3 = `This project uses HTML, CSS and JavaScript to create a fun game in which you have to open doors without find the robot till the last door. This game uses JavaScript to give all the interactivity to the webpage.`;
 const desc4 = `Web Development project for doing CRUD (Create Delete Update and Delete) on the menu, menuItems, employee and employeeTimesheet. Used Express for creating the API Routers and sqlite for the database.`;
 
